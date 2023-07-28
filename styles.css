@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+.first-container {
+    position: relative;
+    text-align: center;
+    color: black;  
+}
+.steel {
+    margin-bottom: -50px;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.second-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+    background-color: black;
+
+
+}
+.number {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    font-weight: 200px;
+    color: yellow;
+    padding-left: 20px;
+}
+.third-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px;
+}
+button {
+    display: inline-block;
+    padding: 7px 7px;
+    font-size: 19px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: yellow;
+    border: none;
+    border-radius: 9px;
+}
+.fourth-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    margin-top: -3.5px;
+    
+}
+
+.fifth-container {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 50px 70px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.sixth-container {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    margin-top: -4px;
+    color: white;
+}
+.end {
+    background-color:black;
+    margin-top: -25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 50px;   
+}
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px; 
+}
+
+
